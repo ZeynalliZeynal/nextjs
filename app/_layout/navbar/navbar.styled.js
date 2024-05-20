@@ -2,9 +2,14 @@ import styled from "styled-components";
 import { colors } from "@app/_styles/utils";
 
 export const StyledNavbarContainer = styled.nav`
+  background: rgba(0, 0, 0, 0.8);
+  position: sticky;
+  top: 0;
   max-width: 100%;
   padding: 0 1rem;
   color: white;
+  box-shadow: inset 0 -1px 0 0 ${colors["accents-2"]};
+  backdrop-filter: saturate(180%) blur(5px);
 
   .navbar_grid {
     max-width: 1400px;
