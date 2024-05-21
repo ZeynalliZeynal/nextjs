@@ -1,4 +1,6 @@
 export const colors = {
+  primary: "black",
+  secondary: "white",
   "accents-1": "#111",
   "accents-2": "#333",
   "accents-3": "#444",

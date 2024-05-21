@@ -1,15 +1,20 @@
 "use client";
 
-import { StyledNavbarContainer } from "@app/_layout/navbar/navbar.styled";
 import NavLeft from "./navLeft";
+import NavRight from "@app/_layout/navbar/navRight";
+import { usePathname } from "next/navigation";
+import styles from "./navbar.module.sass";
 
 const Navbar = () => {
+  const pathname = usePathname();
+  const isLight = pathname === "/showcase" ? "true" : undefined;
   return (
-    <StyledNavbarContainer>
-      <div className="navbar_grid">
-        <NavLeft />
+    <nav className={isLight ? styles.light : styles.dark}>
+      <div className={styles.grid}>
+        <NavLeft isLight={isLight} />
+        <NavRight isLight={isLight} />
       </div>
-    </StyledNavbarContainer>
+    </nav>
   );
 };
 

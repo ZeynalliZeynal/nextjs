@@ -1,0 +1,33 @@
+@use '../../../../_styles/utils/variables' as *
+
+.container
+  font-size: $fs-sm
+  color: $accents-5
+  font-weight: 600
+  gap: 1.5rem
+
+.item_dark
+  &:first-child
+    margin-left: 1.25rem
+
+  &:hover
+    color: $secondary
+
+.item_light
+  @extend .item_dark
+
+  &:hover
+    color: $primary
+
+.link
+  position: relative
+
+
+.active
+  color: $success
+
+.goto
+  height: 0.5rem
+  position: absolute
+  top: 0
+  right: -1rem

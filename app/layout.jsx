@@ -1,8 +1,6 @@
-import "./global.css";
-import { Inter } from "next/font/google";
+import "./_styles/global.css";
 import Navbar from "@app/_layout/navbar";
-
-const inter = Inter({ subsets: ["latin"] });
+import Body from "@app/_layout/body";
 
 export const metadata = {
   title: "Create Next App",
@@ -21,9 +19,9 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <title>{metadata.title}</title>
       </head>
-      <body suppressHydrationWarning={true}>
+      <Body>
         <Navbar /> {children}
-      </body>
+      </Body>
     </html>
   );
 }
