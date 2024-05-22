@@ -1,0 +1,46 @@
+@use '../../../_styles/utils/variables' as *
+@use '../../../_styles/utils/light-theme' as light-colors
+
+.container
+  height: 2rem
+  padding: 0 6px
+  font-size: $fs-sm
+  border: 1px solid $ds-gray-alpha-400
+  font-weight: 500
+  border-radius: 6px
+
+.dark
+  @extend .container
+  background-color: $primary
+  color: $secondary
+
+  &:hover
+    background-color: $ds-gray-200
+
+
+.dark_lg
+  @extend .dark
+  height: 3rem
+  padding: 0 14px
+  font-size: 1rem
+
+.light
+  @extend .container
+  background-color: $secondary
+  color: $primary
+  border: 1px solid #0000001f
+
+  &:hover
+    background-color: light-colors.$ds-gray-200
+
+.light_lg
+  @extend .light
+  height: 3rem
+  padding: 0 14px
+  font-size: 1rem
+
+.inner
+  display: inline-flex
+  gap: 6px
+  align-items: center
+  padding: 0 6px

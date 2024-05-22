@@ -1,0 +1,37 @@
+@use '../../../../_styles/utils/variables' as *
+@use '../../../../_styles/utils/light-theme' as light-colors
+
+.search_bar_dark
+  display: inline-flex
+  align-items: center
+  cursor: pointer
+  height: 2rem
+  width: 237px
+  border-radius: 6px
+  padding: 0 12px
+  border: 1px solid $ds-gray-alpha-400
+  color: $ds-gray-700
+  background-color: $ds-gray-100
+  font-size: $fs-sm
+  justify-content: space-between
+  transition: all .15s ease
+
+  @media (max-width: 1150px)
+    width: 120px
+
+  &:hover
+    color: $ds-gray-800
+    background-color: $ds-gray-200
+
+.search_bar_light
+  @extend .search_bar_dark
+  background-color: light-colors.$ds-gray-100
+  color: $ds-gray-800
+
+  &:hover
+    background-color: light-colors.$ds-gray-200
+
+
+.text_hidden
+  @media (max-width: 1150px)
+    display: none

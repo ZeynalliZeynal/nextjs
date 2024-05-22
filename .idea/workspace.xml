@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25bbe85b-d661-412e-b13a-4b67b1266615" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/svgs/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/svgs/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_layout/navbar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout/navbar/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout/navbar/navLeft/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout/navbar/navLeft/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout/navbar/navLeft/navLinks/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout/navbar/navLeft/navLinks/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout/navbar/navLeft/navLogos/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout/navbar/navLeft/navLogos/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout/navbar/navbar.styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_styles/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/_styles/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/_styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout/navbar/navLeft/nav-left.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout/navbar/navLeft/nav-left.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout/navbar/navLeft/navLinks/nav-links.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout/navbar/navLeft/navLinks/nav-links.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout/navbar/navRight/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout/navbar/navRight/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout/navbar/navRight/navRight.styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/_styles/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/_styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_styles/utils/variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/_styles/utils/variables.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +70,11 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Node.js.layout.jsx.executor": "Run",
+    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/elvze/Desktop/Education/nextjs/app/_styles",
+    "last_opened_file_path": "C:/Users/elvze/Desktop/Education/nextjs/app/_layout/navbar/navRight",
     "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -105,14 +103,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\elvze\Desktop\Education\nextjs\app\_layout\navbar\navRight" />
       <recent name="C:\Users\elvze\Desktop\Education\nextjs\app\_styles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\elvze\Desktop\Education\nextjs\app\_layout\navbar\navRight\searchButton" />
       <recent name="C:\Users\elvze\Desktop\Education\nextjs\app\_styles\utils" />
       <recent name="C:\Users\elvze\Desktop\Education\nextjs\app\_styles" />
       <recent name="C:\Users\elvze\Desktop\Education\nextjs\app\_layout\body" />
       <recent name="C:\Users\elvze\Desktop\Education\nextjs\app" />
-      <recent name="C:\Users\elvze\Desktop\Education\nextjs\app\_layout\navbar\navLeft" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -131,7 +130,8 @@
       <option name="presentableId" value="Default" />
       <updated>1716228469581</updated>
       <workItem from="1716228471067" duration="8375000" />
-      <workItem from="1716311410655" duration="11635000" />
+      <workItem from="1716311410655" duration="11853000" />
+      <workItem from="1716370168554" duration="8239000" />
     </task>
     <servers />
   </component>

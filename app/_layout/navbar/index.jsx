@@ -7,7 +7,7 @@ import styles from "./navbar.module.sass";
 
 const Navbar = () => {
   const pathname = usePathname();
-  const isLight = pathname === "/showcase" ? "true" : undefined;
+  const isLight = pathname === "/showcase";
   return (
     <nav className={isLight ? styles.light : styles.dark}>
       <div className={styles.grid}>

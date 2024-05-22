@@ -1,0 +1,20 @@
+@use '../../../_styles/utils/variables' as *
+@use '../../../_styles/utils/light-theme' as light-theme
+
+
+.container
+  height: 1.25rem
+  border-radius: 6px
+  border: 1px solid $ds-gray-alpha-400
+  padding: 0 6px
+  font-size: 12px
+//gap: 6px
+
+.dark
+  background-color: $primary
+  color: $secondary
+
+.light
+  box-shadow: light-theme.$ds-shadow-border
+  background-color: $secondary
+  color: $primary
